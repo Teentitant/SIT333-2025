@@ -3,4 +3,18 @@
   <groupId>sit333</groupId>
   <artifactId>Ontrack-test</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+	<dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<version>4.13.2</version>
+		<scope> tests </scope>
+	</dependency>
+	<dependency>
+	<groupId>org.seleniumhq.selenium</groupId>
+	<artifactId>selenium-java</artifactId>
+	<version>3.141.59</version>
+	</dependency>
+</dependencies>
 </project>
