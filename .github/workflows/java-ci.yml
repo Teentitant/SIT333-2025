@@ -27,7 +27,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      working-directory: ./SIT333/Ontrack-test
+      working-directory: ./Ontrack-test
       run: mvn -B clean package --file pom.xml
       
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
